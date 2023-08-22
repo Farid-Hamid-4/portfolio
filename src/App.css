@@ -12,23 +12,22 @@ h1, p {
     justify-content: center;
 }
 
-.introduction > .profile-picture {
+.introduction .profile-picture {
     width: 400px;
     height: auto;
 }
 
-.introduction > h1 {
-    margin-left: 1.4em;
+.introduction h1 {
     font-size: 35px;
     letter-spacing: 1px;
 }
 
-.introduction > h1 .low-highlight {
+.low-highlight {
     position: relative;
     width: fit-content;
 }
 
-.introduction > h1 .low-highlight::after {
+.low-highlight::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -43,7 +42,7 @@ h1, p {
     z-index: -1;
 }
 
-.background > h1, .skills > h1, .projects > h1 {
+.background h1, .skills h1, .projects h1 {
     font-size: 18px;
     color: #C8A2C8;
 }
@@ -51,33 +50,47 @@ h1, p {
 .background {
     background-color: rgb(197, 255, 236);
     height: 50vh;
-    width: 100%;
     display: flex;
-    justify-content: center;
 }
 
-.background > p {
+.background p {
     margin-left: 2em;
-    width: 60%;
     font-size: 16px;
 }
 
 .skills {
-    background-color: azure;
     height: 50vh;
-}
-
-.skills > .icons {
-    font-size: 3em;
     display: flex;
 }
 
+.skills .icons {
+    margin-left: 2em;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 3em;
+    row-gap: 1em;
+    text-align: center;
+}
+
+.skills .icons i {
+    font-size: 3.5em;
+}
+
+.skills .icons i:hover {
+    transition: transform .2s;
+    transform: scale(1.1);
+}
+
+.skills .icons p {
+    margin-top: 5px;
+    font-size: 10px;
+}
+
 .projects {
-    background-color: beige;
+    background-color: lightblue;
     height: 50vh;
 }
 
 .footer {
-    background-color: #C8A2C8;
     height: 50vh;
 }
