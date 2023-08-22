@@ -1,27 +1,83 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Poppins&display=swap');
 
-h1 {
+h1, p {
     font-family: "Poppins", sans-serif;
     font-weight: bold;
 }
 
-#introduction > h1 {
-    position: relative;
-    font-size: 45px;
+.introduction {
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.introduction > .profile-picture {
+    width: 400px;
+    height: auto;
+}
+
+.introduction > h1 {
+    margin-left: 1.4em;
+    font-size: 35px;
     letter-spacing: 1px;
+}
+
+.introduction > h1 .low-highlight {
+    position: relative;
     width: fit-content;
 }
 
-#introduction > h1::after {
+.introduction > h1 .low-highlight::after {
     content: '';
     position: absolute;
     width: 100%;
     height: 100%;
     left: 0;
+    bottom: 0;
     background: linear-gradient(
         to bottom,
-        #0000 50%,
-        #fcc93e 50%
+        #0000 60%,
+        #C8A2C8 40%
     );
     z-index: -1;
+}
+
+.background > h1, .skills > h1, .projects > h1 {
+    font-size: 18px;
+    color: #C8A2C8;
+}
+
+.background {
+    background-color: rgb(197, 255, 236);
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.background > p {
+    margin-left: 2em;
+    width: 60%;
+    font-size: 16px;
+}
+
+.skills {
+    background-color: azure;
+    height: 50vh;
+}
+
+.skills > .icons {
+    font-size: 3em;
+    display: flex;
+}
+
+.projects {
+    background-color: beige;
+    height: 50vh;
+}
+
+.footer {
+    background-color: #C8A2C8;
+    height: 50vh;
 }
