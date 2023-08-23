@@ -5,7 +5,6 @@ import Icon from "./Icon";
 import me from "./me_cropped.png";
 import "./App.css";
 
-
 export default function App() {
     const iconsList = {
         "c-plain": "C", 
@@ -39,9 +38,11 @@ export default function App() {
 
             <div className="background">
                 <h1>BACKGROUND</h1>
-                <p>I recently graduated from the University of Guelph with an honors degree in Computer Science
-                    <br/><br/>As a software developer, I enjoy bridging the gap between developing and design -- combining my technical knowledge with my keen eye for design to create a beautiful product. My goal is to always build applications that are scalable and efficient under the hood while providing engaging, pixel-perfect user experiences.
-                    <br/><br/>When I'm not in front of a computer screen. I'm probably reading books, travelling or playing video games.
+                <p> I recently graduated from the University of Guelph with an honors degree in Computer Science
+                    <br/><br/>
+                    As a software developer, I enjoy bridging the gap between developing and design -- combining my technical knowledge with my keen eye for design to create a beautiful product. My goal is to always build applications that are scalable and efficient under the hood while providing engaging, pixel-perfect user experiences.
+                    <br/><br/>
+                    When I'm not in front of a computer screen. I'm probably reading books, travelling or playing video games.
                 </p>
             </div>
             

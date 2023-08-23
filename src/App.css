@@ -43,7 +43,7 @@ h1, p {
 }
 
 .background h1, .skills h1, .projects h1 {
-    font-size: 18px;
+    font-size: 35px;
     color: #C8A2C8;
 }
 
@@ -60,16 +60,15 @@ h1, p {
 
 .skills {
     height: 50vh;
-    display: flex;
+    text-align: center;
 }
 
 .skills .icons {
     margin-left: 2em;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    column-gap: 3em;
-    row-gap: 1em;
     text-align: center;
+    row-gap: 1em;
 }
 
 .skills .icons i {
