@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "devicon/devicon.min.css";
 import { Image } from "react-bootstrap";
 import Icon from "./Icon";
+import Project from "./Project";
 import me from "./me_cropped.png";
 import "./App.css";
 
@@ -57,6 +58,7 @@ export default function App() {
 
             <div className="projects">
                 <h1>PROJECTS</h1>
+                <Project></Project>
             </div>
 
             <div className="footer">
