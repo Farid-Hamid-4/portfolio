@@ -6,7 +6,7 @@ h1, p {
 }
 
 .introduction {
-    height: 100vh;
+    height: 1000px;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -49,8 +49,9 @@ h1, p {
 
 .background {
     background-color: rgb(197, 255, 236);
-    height: 50vh;
+    height: auto;
     display: flex;
+    padding: 50px 0 50px 0;
 }
 
 .background p {
@@ -59,8 +60,10 @@ h1, p {
 }
 
 .skills {
-    height: 50vh;
+    background-color: lightblue;
+    height: auto;
     text-align: center;
+    padding: 50px 0 50px 0;
 }
 
 .skills .icons {
@@ -86,10 +89,13 @@ h1, p {
 }
 
 .projects {
-    background-color: lightblue;
-    height: 50vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 100px; /* Add margin between components */  
+    padding: 50px 0 50px 0;
 }
 
 .footer {
-    height: 50vh;
+    background: lightpink;
 }

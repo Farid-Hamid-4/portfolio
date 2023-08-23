@@ -1,3 +1,9 @@
+# To do list
+1. Put all the projects data into some variable/file
+2. Seperate the Background, Skills, and Projects into sections
+3. Make a universal class that is applied to main div inside each section. This ensures that every section has its content use the same padding/margin
+4. Seperate each portion of the content into its own divs using appropriate names
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
