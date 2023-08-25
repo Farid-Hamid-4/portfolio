@@ -1,6 +1,5 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "devicon/devicon.min.css";
-import { useEffect } from "react";
 import { Image } from "react-bootstrap";
 import Icon from "./components/Icon";
 import iconsList from "./data/iconsData";
@@ -13,7 +12,6 @@ import linkedin from "./assets/images/LinkedIn-Icon.png";
 import Farid from "./assets/images/Farid.png";
 import AstronautMusic from "./assets/AstronautMusic.json";
 import Lottie from "lottie-react";
-import SpotifyWebApi from "spotify-web-api-node";
 import "./App.css";
 
 export default function App() {
