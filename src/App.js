@@ -1,14 +1,19 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "devicon/devicon.min.css";
+import { useEffect } from "react";
 import { Image } from "react-bootstrap";
 import Icon from "./components/Icon";
 import iconsList from "./data/iconsData";
 import Project from "./components/Project";
 import projectsList from "./data/projectsData";
-import instagram from "./assets/images/instagram.png";
-import mail from "./assets/images/mail.png";
-import github from "./assets/images/github.png";
-import linkedin from "./assets/images/linkedin.png";
+import instagram from "./assets/images/Instagram-Icon.png";
+import mail from "./assets/images/Email-Icon.png";
+import github from "./assets/images/GitHub-Icon.png";
+import linkedin from "./assets/images/LinkedIn-Icon.png";
+import Farid from "./assets/images/Farid.png";
+import AstronautMusic from "./assets/AstronautMusic.json";
+import Lottie from "lottie-react";
+import SpotifyWebApi from "spotify-web-api-node";
 import "./App.css";
 
 export default function App() {
@@ -18,37 +23,39 @@ export default function App() {
                 <nav>
                     <div className="navbar-logo"><a href="/">Farid Hamid</a></div>
                     <ul className="navbar-links">
-                        <li><a href="#background-section">about</a></li>
+                        <li><a href="#about-section">about</a></li>
                         <li><a href="#skills-section">skills</a></li>
                         <li><a href="#projects-section">projects</a></li>
                         <li><a href="#footer">contact</a></li>
                     </ul>
                 </nav>
 
-                <div className="header-main-content">
-                    <h1>Hi! My name is Farid Hamid <br/><span className="low-highlight">Software Developer</span></h1>
-                    <div className="icon-component">
-                        <a href="https://github.com/Farid-Hamid-4" target="_blank" rel="noopener noreferrer"><Image className="icon-image" src={github}/></a>
-                        <a href="https://www.linkedin.com/in/farid-hamid/" target="_blank" rel="noopener noreferrer"><Image className="icon-image" src={linkedin}/></a>
-                        <a href="https://www.instagram.com/fhamid4/" target="_blank" rel="noopener noreferrer"><Image className="icon-image" src={instagram}/></a>
-                        <a href="faridhamid00@gmail.com" target="_blank" rel="noopener noreferrer"><Image className="icon-image" src={mail}/></a>
+                <div className="header-container">
+                    <div className="header-text">
+                        <h1>Hello! My name is Farid Hamid <br/><span className="low-highlight">Software Developer &#128187;</span></h1>
+                        <div className="icons-container">
+                            <a href="https://github.com/Farid-Hamid-4" target="_blank" rel="noopener noreferrer"><Image className="icon-image" src={github}/></a>
+                            <a href="https://www.linkedin.com/in/farid-hamid/" target="_blank" rel="noopener noreferrer"><Image className="icon-image" src={linkedin}/></a>
+                            <a href="https://www.instagram.com/fhamid4/" target="_blank" rel="noopener noreferrer"><Image className="icon-image" src={instagram}/></a>
+                            <a href="mailto:faridhamid00@gmail.com" target="_blank" rel="noopener noreferrer"><Image className="icon-image" src={mail}/></a>
+                        </div>
                     </div>
+                    <div className="header-lottie"><Lottie loop={true} animationData={AstronautMusic}/></div>
                 </div>
             </header>
 
-            <section id="background-section">
-                <div className="background-component">
-                    <div>
-                        <h1>BACKGROUND</h1>
-                    </div>
-                    <div>
-                        <p> I recently graduated from the University of Guelph with an honors degree in Computer Science
+            <section id="about-section">
+                <div className="about-component">
+                    <div className="about-bio">
+                        <h1>About Me</h1>
+                        <p> Hi! &#128075; My name is Farid Hamid and I'm a new grad &#127891; from the University of Guelph with an Honours degree in Computer Science.
                             <br/><br/>
-                            As a software developer, I enjoy bridging the gap between developing and design -- combining my technical knowledge with my keen eye for design to create a beautiful product. My goal is to always build applications that are scalable and efficient under the hood while providing engaging, pixel-perfect user experiences.
+                            I enjoy spending my free time listening to &#127911; music around the clock and playing &#127918; video games. 
                             <br/><br/>
-                            When I'm not in front of a computer screen. I'm probably reading books, travelling or playing video games.
+                            I believe one of the best ways to learn more about someone is to dive into their music catalog. Here are some of my playlists and the type of music I listen to:
                         </p>
                     </div>
+                    <div className="about-image"><Image style={{ width: "350px", borderRadius: "10px" }} src={Farid}/></div>
                 </div>
             </section>
             

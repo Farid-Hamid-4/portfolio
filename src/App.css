@@ -70,11 +70,21 @@ nav {
     transform: scaleX(1);
 }
 
-.header-main-content {
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    transform: translate(-50%, -25%);
+.header-container {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-text {
+    height: auto;   
+}
+
+.header-lottie {
+    height: auto;
+    width: 15rem;
+    transform: rotateY(180deg);
 }
 
 .low-highlight {
@@ -84,6 +94,7 @@ nav {
     font-family: "Space Mono", monospace;
     text-transform: uppercase;
     letter-spacing: 4px;
+    z-index: 1;
 }
 
 .low-highlight::after {
@@ -101,7 +112,7 @@ nav {
     z-index: -1;
 }
 
-.icon-component {
+.icons-container {
     display: flex;
     padding-top: 1em;
     gap: 1em;
@@ -116,25 +127,36 @@ nav {
     transform: translateY(-5px);
 }
 
-.background-component h1, .skills h1, .projects h1 {
-    font-size: 35px;
+#about-section h1, .skills h1, .projects h1 {
+    font-size: 20px;
     color: #C8A2C8;
 }
 
-.background-component {
-    background-color: rgb(197, 255, 236);
-    height: auto;
-    display: flex;
-    padding: 50px 0 50px 0;
+#about-section {
+    padding: 5em 15em 5em 15em;
 }
 
-.background-component p {
-    margin-left: 2em;
+.about-component {
+    height: auto;
+    display: flex;
+}
+
+.about-component p {
     font-size: 16px;
 }
 
+.about-bio {
+    width: 50%;
+}
+
+.about-image {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .skills {
-    background-color: lightblue;
     height: auto;
     text-align: center;
     padding: 50px 0 50px 0;
