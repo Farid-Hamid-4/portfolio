@@ -1,7 +1,7 @@
 import { Button, Container, Image } from "react-bootstrap";
 import "devicon/devicon.min.css";
-import "../styles/App.css";
-import "../styles/Project.css";
+import "../App.css";
+import "./Project.css";
 
 export default function Project({ type, name, technologies, github, URL, description, image }) {
     return (
