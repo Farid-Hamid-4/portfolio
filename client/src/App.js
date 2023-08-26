@@ -1,6 +1,5 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "devicon/devicon.min.css";
-// import { useEffect, useState } from "react";
 import { Image } from "react-bootstrap";
 import Icon from "./components/Icon";
 import iconsList from "./data/iconsData";
@@ -16,7 +15,6 @@ import Lottie from "lottie-react";
 import "./App.css";
 
 export default function App() {
-    
     return (
         <>
             <header>
