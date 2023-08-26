@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "devicon/devicon.min.css";
+import { useEffect, useState } from "react";
 import { Image } from "react-bootstrap";
 import Icon from "./components/Icon";
 import iconsList from "./data/iconsData";
@@ -15,6 +16,20 @@ import Lottie from "lottie-react";
 import "./App.css";
 
 export default function App() {
+
+    const [accessToken, setAccessToken] = useState('');
+
+    useEffect(() => {
+        // Make a request to your Express server to get the access token
+        fetch('https://main.d3nrpo7t1d7wxl.amplifyapp.com/get-access-token')
+        .then(response => response.json())
+        .then(data => {
+            setAccessToken(data.access_token);
+        });
+    }, []);
+
+    console.log(accessToken);
+
     return (
         <>
             <header>
@@ -53,7 +68,7 @@ export default function App() {
                             I believe one of the best ways to learn more about someone is to dive into their music catalog. Here are some of my playlists and the type of music I listen to:
                         </p>
                     </div>
-                    <div className="about-image"><Image style={{ width: "350px", borderRadius: "10px" }} src={Farid}/></div>
+                    <div className="about-image"><Image style={{ width: "15em", borderRadius: "10px" }} src={Farid}/></div>
                 </div>
             </section>
             
