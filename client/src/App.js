@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "devicon/devicon.min.css";
-import { useEffect, useState } from "react";
+// import { useEffect, useState } from "react";
 import { Image } from "react-bootstrap";
 import Icon from "./components/Icon";
 import iconsList from "./data/iconsData";
@@ -16,20 +16,7 @@ import Lottie from "lottie-react";
 import "./App.css";
 
 export default function App() {
-
-    const [accessToken, setAccessToken] = useState('');
-
-    useEffect(() => {
-        // Make a request to your Express server to get the access token
-        fetch('https://main.d3nrpo7t1d7wxl.amplifyapp.com/get-access-token')
-        .then(response => response.json())
-        .then(data => {
-            setAccessToken(data.access_token);
-        });
-    }, []);
-
-    console.log(accessToken);
-
+    
     return (
         <>
             <header>
