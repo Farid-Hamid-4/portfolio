@@ -1,0 +1,16 @@
+#projects-section {
+    padding: 5em 15em 5em 15em;
+}
+
+.projects-container h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(160, 94, 160);
+}
+
+.projects-container {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 50px 0;
+}

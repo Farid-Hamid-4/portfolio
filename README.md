@@ -4,6 +4,8 @@
 # Color List
 - #E6D799 yellow
 - #C8A2C8 lilac
+- rgb(217, 190, 217) light lilac hue
+- rgb(160, 94, 160) dark lilac hue
 
 # Getting Started with Create React App
 

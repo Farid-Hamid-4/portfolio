@@ -1,0 +1,29 @@
+#about-section {
+    padding: 5em 15em 5em 15em;
+}
+
+.about-me-container {
+    display: flex;
+}
+
+.about-me-bio h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(160, 94, 160);
+}
+
+.about-me-container p {
+    font-size: 1em;
+    color: #696969;
+}
+
+.about-me-bio {
+    width: 50%;
+}
+
+.about-me-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}

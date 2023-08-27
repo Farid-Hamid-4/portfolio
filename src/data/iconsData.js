@@ -14,7 +14,7 @@ const iconsList = {
     "bootstrap-plain": "Bootstrap", 
     "pandas-plain": "pandas", 
     "numpy-original": "NumPy", 
-    "git-plain": "Git", 
+    "github-original": "GitHub", 
     "docker-plain": "Docker",
     "amazonwebservices-original": "AWS", 
     "azure-plain": "Azure", 
