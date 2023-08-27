@@ -29,7 +29,7 @@ export default function Header() {
             <div className="header-container">
                 <div className="header-text">
                     <h1>Hello! My name is Farid Hamid</h1>
-                    <h2 className="low-highlight">Software Developer &#128187;</h2>
+                    <h2>Software Developer &#128187;</h2>
                     <div className="icons-container">
                         <a href="https://github.com/Farid-Hamid-4" target="_blank" rel="noopener noreferrer"><Image className="icon-image" src={github}/></a>
                         <a href="https://www.linkedin.com/in/farid-hamid/" target="_blank" rel="noopener noreferrer"><Image className="icon-image" src={linkedin}/></a>

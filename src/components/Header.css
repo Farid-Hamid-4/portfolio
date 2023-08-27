@@ -1,5 +1,5 @@
 header {
-    background-color: #C8A2C8;
+    background-color: #c8a2c8;
     height: 100vh;
 }
 
@@ -10,10 +10,26 @@ header h1 {
 }
 
 header h2 {
+    position: relative;
+    width: fit-content;
     font-size: 2.5em;
     font-weight: bold;
     letter-spacing: 4px;
     text-transform: uppercase;
+    z-index: 1;
+}
+
+header h2::after {
+    content: '';
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    filter: blur(2px);
+    background-color: #e6d799;
+    box-shadow: 0 0 8px #f0e6c0;
+    z-index: -1;
 }
 
 nav {
@@ -60,7 +76,7 @@ nav {
     height: 15%;
     bottom: 0;
     left: 0;
-    background-color: #E6D799;
+    background-color: #e6d799;
     transform: scaleX(0);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;

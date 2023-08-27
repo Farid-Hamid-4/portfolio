@@ -2,10 +2,10 @@
 [https://main.d3nrpo7t1d7wxl.amplifyapp.com/]
 
 # Color List
-- #E6D799 yellow
-- #C8A2C8 lilac
+- #e6d799 yellow
+- #c8a2c8 lilac
 - rgb(217, 190, 217) light lilac hue
-- rgb(160, 94, 160) dark lilac hue
+- #a05ea0 dark lilac hue
 
 # Getting Started with Create React App
 

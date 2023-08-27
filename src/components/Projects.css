@@ -2,15 +2,81 @@
     padding: 5em 15em 5em 15em;
 }
 
-.projects-container h1 {
-    font-size: 2em;
-    font-weight: bold;
-    color: rgb(160, 94, 160);
-}
-
 .projects-container {
     height: auto;
     display: flex;
     flex-direction: column;
     padding: 50px 0 50px 0;
+}
+
+.projects-container h1 {
+    font-size: 2em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #a05ea0;
+}
+
+.single-project {
+    margin: 2em 0 2em 0;
+    padding: 2em;
+    border: 2px solid #a05ea0;
+    border-radius: 5px;
+}
+
+.single-project h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.single-project h2 {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.skills-used {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    column-gap: 0.5em;
+}
+
+.skills-used p {
+    position: relative;
+    padding: 0 4px 0 4px;
+    margin-bottom: 0.5em;
+}
+
+.skills-used p::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    background-color: #ffc0cb;
+    border-radius: 2px;
+    z-index: -1;
+}
+
+.project-links {
+    display: flex;
+    width: fit-content;
+}
+
+.project-links .btn {
+    background-color: #ffc0cb;
+    color: black;
+    border-radius: 2px;
+    border: none;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
+}
+
+.project-links i {
+    padding-right: 6px;
+}
+
+.project-links a {
+    color: #a05ea0;
 }

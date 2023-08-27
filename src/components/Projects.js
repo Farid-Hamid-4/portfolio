@@ -1,7 +1,7 @@
 import "devicon/devicon.min.css";
 
 // Import from libraries
-import { Button, Container } from "react-bootstrap";
+import { Button } from "react-bootstrap";
 
 // Data files
 import projectsList from "../data/projectsData.js";
@@ -15,28 +15,25 @@ export default function Projects() {
         <section id="projects-section">
             <div className="projects-container">
                 <h1 className="low-highlight">Personal Projects</h1>
-                <div>
                     {projectsList.map((project, index) => (
-                        <Container fluid>
-                            <div className="information">
-                                <h2>{project.type}</h2>
-                                <h1>{project.name}</h1>
+                        <div className="single-project">
+                            <h2>{project.type}</h2>
+                            <h1>{project.name}</h1>
+                            <div className="skills-used">
                                 {Object.entries(project.technologies).map(([techKey, techValue]) => 
-                                    <Button key={techKey}>
-                                        <i className={`devicon-${techKey}`}></i>
-                                        {techValue}
-                                    </Button>
+                                    <p>{techValue}</p>
                                 )}
-                                <Button href={project.github}>
+                            </div>
+                            <div className="project-links">
+                                <Button variant="outline-dark" href={project.github}>
                                     <i className="devicon-github-plain"></i>
                                     View Repo
                                 </Button>
-                                {URL && <a href={URL}>Site</a>}
-                                <p>{project.description}</p>
+                                {project.URL && <a className="link-to-site" href={project.URL}>Site</a>}
                             </div>
-                        </Container>
+                            <p style={{ width: "50%", margin: "0", color: "#696969" }}>{project.description}</p>
+                        </div>
                     ))}
-                </div>
             </div>
         </section>
     );
