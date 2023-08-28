@@ -1,7 +1,3 @@
-import vibefy from "../assets/images/vibefy.png";
-import uogCourseMapping from "../assets/images/uog-course-mapping.png";
-import imageProcessor from "../assets/images/image-processor.png";
-
 const projectsList = [
     {
         "type":"FULL-STACK WEB APPLICATION", 
@@ -18,7 +14,6 @@ const projectsList = [
         "github":"https://github.com/Farid-Hamid-4/vibefy",
         "URL":"https://main.d2xqpnct98klit.amplifyapp.com/",
         "description":"Vibefy is a React-based web application that allows users to discover and explore music tracks, albums, and artists using the Spotify Web API. Users can search for songs or artists, and generate playlists containing similar tracks.",
-        "image":vibefy,
     },
     {
         "type":"FULL-STACK WEB APPLICATION",
@@ -37,7 +32,6 @@ const projectsList = [
         "github":"https://github.com/Farid-Hamid-4/uog-course-mapping",
         "URL":"",
         "description":"A program to search and filter course offerings at the University of Guelph. Graphs majors and programs for University of Guelph, and subjects for McGill.",
-        "image":uogCourseMapping,
     },
     {                    
         "type":"BACKEND PROJECT",
@@ -49,7 +43,17 @@ const projectsList = [
         "github":"https://github.com/Farid-Hamid-4/image-processor",
         "URL":"",
         "description":"This Python project provides functionalities to sharpen or apply noise removal to an image. It utilizes the Nvidia Warp library for efficient parallel computation.",
-        "image":imageProcessor,
+    },
+    {
+        "type": "BACKEND PROJECT",
+        "name": "Picture Summarizer",
+        "technologies": {
+            "python-plain": "Python", 
+            "amazonwebservices-original": "AWS",
+        },
+        "github": "https://github.com/Farid-Hamid-4/object-detector",
+        "URL": "",
+        "description": "A picture summarizing app that uses Amazon Rekognition to determine the contents of an image and OpenAI to generate a summary of what is happening in the image."
     }
 ];
 

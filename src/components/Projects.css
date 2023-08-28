@@ -1,42 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&family=Poppins&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 #projects-section {
     padding: 5em 15em 5em 15em;
 }
 
-.projects-container {
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    padding: 50px 0 50px 0;
-}
-
-.projects-container h1 {
+#projects-section h1 {
     font-size: 2em;
     font-weight: bold;
     letter-spacing: 1px;
     color: #a05ea0;
+    margin: 0;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .single-project {
-    margin: 2em 0 2em 0;
+    width: 46%;
+    margin: 1em 0 1em 0;
     padding: 2em;
     border: 2px solid #a05ea0;
     border-radius: 5px;
+    box-sizing: border-box;
 }
 
 .single-project h1 {
     font-size: 2em;
     font-weight: bold;
+    padding-bottom: 0.3em;
 }
 
 .single-project h2 {
-    font-size: 0.8em;
+    font-size: 1em;
+    font-weight: bold;
     font-style: italic;
+    letter-spacing: 1px;
 }
 
 .skills-used {
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
     column-gap: 0.5em;
 }
 
@@ -61,15 +67,16 @@
 .project-links {
     display: flex;
     width: fit-content;
+    margin-bottom: 0.5em;
 }
 
 .project-links .btn {
-    background-color: #ffc0cb;
+    font-family: "Poppins", sans-serif;
     color: black;
+    background-color: #ffc0cb;
     border-radius: 2px;
     border: none;
     align-items: center;
-    margin-bottom: 0.5rem;
     margin-right: 1rem;
 }
 
@@ -79,4 +86,14 @@
 
 .project-links a {
     color: #a05ea0;
+}
+
+.link-to-site {
+    font-family: "Poppins", sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: auto;
 }

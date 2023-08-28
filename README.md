@@ -7,6 +7,16 @@
 - rgb(217, 190, 217) light lilac hue
 - #a05ea0 dark lilac hue
 
+# To Do List
+1. Organizing the global.css styles from the normal content
+2. Fixing the margins and paddings of elements to remove any unnecessary ones
+3. Using a clean structure for each component
+4. Add my spotify playlists to the about me section
+5. Organize the icons in the skills section so that it flows nicely
+6. Projects should implement a database that calls from dynamo db the projects data and renders each project in a flex box of 2 columns per row
+7. Starting the footer
+8. Talk about the importance of accessibility to you and your object detector project
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

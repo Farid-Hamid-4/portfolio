@@ -14,7 +14,7 @@ import "./App.css";
 export default function App() {
     return (
         <>
-            <Header/>
+            <Header />
 
             <About />
             
@@ -22,9 +22,7 @@ export default function App() {
             
             <Projects />
 
-            <footer>
-                <h1>footer</h1>
-            </footer>
+            <Footer />
         </>
     );
 }

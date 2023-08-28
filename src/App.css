@@ -27,3 +27,7 @@ h2 {
     border-radius: 5px;
     z-index: -1;
 }
+
+.section-container {
+    margin: 5em 15em 5em 15em;
+}
