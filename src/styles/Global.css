@@ -1,4 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&family=Poppins&family=Space+Mono:ital@0;1&display=swap');
+/* Poppins Regular */
+@font-face {
+    font-family: "Poppins";
+    src: url("../assets/fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Poppins Bold */
+@font-face {
+    font-family: "Poppins";
+    src: url("../assets/fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* Space Mono Regular */
+@font-face {
+    font-family: "Space Mono";
+    src: url("../assets/fonts/SpaceMono/SpaceMono-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Space Mono Italic */
+@font-face {
+    font-family: "Space Mono";
+    src: url("../assets/fonts/SpaceMono/SpaceMono-Italic.ttf") format("truetype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* Space Mono Bold Italic*/
+@font-face {
+    font-family: "Space Mono";
+    src: url("../assets/fonts/SpaceMono/SpaceMono-BoldItalic.ttf") format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
 
 * {
     margin: 0;

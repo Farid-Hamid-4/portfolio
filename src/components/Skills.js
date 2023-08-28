@@ -5,8 +5,8 @@ import Icon from "../components/Icon.js";
 import iconsList from "../data/iconsData.js";
 
 // Styling
-import "../App.css";
-import "./Skills.css";
+import "../styles/Global.css";
+import "../styles/Skills.css";
 
 export default function Skills() {
     return (

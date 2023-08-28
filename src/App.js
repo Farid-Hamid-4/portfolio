@@ -9,19 +9,15 @@ import Projects from "./components/Projects.js";
 import Footer from "./components/Footer.js";
 
 // Styles
-import "./App.css";
+import "./styles/Global.css";
 
 export default function App() {
     return (
         <>
             <Header />
-
             <About />
-            
             <Skills />
-            
             <Projects />
-
             <Footer />
         </>
     );

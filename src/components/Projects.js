@@ -7,8 +7,8 @@ import { Button } from "react-bootstrap";
 import projectsList from "../data/projectsData.js";
 
 // Styling
-import "../App.css";
-import "./Projects.css";
+import "../styles/Global.css";
+import "../styles/Projects.css";
 
 export default function Projects() {
     return (

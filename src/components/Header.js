@@ -7,11 +7,11 @@ import instagram from "../assets/images/Instagram-Icon.png";
 import mail from "../assets/images/Email-Icon.png";
 import github from "../assets/images/GitHub-Icon.png";
 import linkedin from "../assets/images/LinkedIn-Icon.png";
-import AstronautMusic from "../assets/lotties/AstronautMusic.json";
+import AstronautMusic from "../assets/animations/AstronautMusic.json";
 
 // Styling
-import "../App.css";
-import "./Header.css";
+import "../styles/Global.css";
+import "../styles/Header.css";
 
 export default function Header() {
     return (

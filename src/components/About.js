@@ -5,8 +5,8 @@ import { Image } from "react-bootstrap";
 import Farid from "../assets/images/Farid.png";
 
 // Styling
-import "../App.css";
-import "./About.css";
+import "../styles/Global.css";
+import "../styles/About.css";
 
 export default function About() {
     return (

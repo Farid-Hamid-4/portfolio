@@ -7,8 +7,8 @@ import github from "../assets/images/GitHub-Icon.png";
 import linkedin from "../assets/images/LinkedIn-Icon.png";
 
 // Styling
-import "../App.css";
-import "./Footer.css";
+import "../styles/Global.css";
+import "../styles/Footer.css";
 
 export default function Footer() {
     return(
