@@ -7,7 +7,7 @@ import instagram from "../assets/images/Instagram-Icon.png";
 import mail from "../assets/images/Email-Icon.png";
 import github from "../assets/images/GitHub-Icon.png";
 import linkedin from "../assets/images/LinkedIn-Icon.png";
-import AstronautMusic from "../assets/AstronautMusic.json";
+import AstronautMusic from "../assets/lotties/AstronautMusic.json";
 
 // Styling
 import "../App.css";

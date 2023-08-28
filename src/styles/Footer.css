@@ -1,0 +1,25 @@
+.footer-container {
+    display: flex;
+    padding: 5em 15em 5em 15em;
+}
+
+.footer-text {
+    width: 50%;
+}
+
+.footer-text p {
+    color: #696969;
+}
+
+.icon-image {
+    margin-right: 1em;
+}
+
+.footer-form {
+    width: 50%;
+}
+
+.footer-form .form-control {
+    border: 1px solid #a05ea0;
+    margin-bottom: 1em;
+}
