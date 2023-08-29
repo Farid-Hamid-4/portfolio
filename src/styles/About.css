@@ -19,6 +19,7 @@
 }
 
 #about-me-image img {
+    margin-left: auto;
     width: 20em;
     border-radius: 10px;
 }

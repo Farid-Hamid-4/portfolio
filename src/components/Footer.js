@@ -13,15 +13,17 @@ import "../styles/Footer.css";
 export default function Footer() {
     return(
         <footer>
-            <div className="footer-container">
-                <div className="footer-text">
-                    <h1>Let's Connect!</h1>
+            <div id="footer-container" className="section-margins">
+                <div id="footer-text">
+                    <h1 className="section-title">Let's Connect!</h1>
                     <p>If you ever want to have a quick chat, just shoot me an email or get in touch with me through my instagram!</p>
-                    <a href="https://github.com/Farid-Hamid-4" target="_blank" rel="noopener noreferrer"><Image className="icon-image" src={github}/></a>
-                    <a href="https://www.linkedin.com/in/farid-hamid/" target="_blank" rel="noopener noreferrer"><Image className="icon-image" src={linkedin}/></a>
-                    <a href="https://www.instagram.com/fhamid4/" target="_blank" rel="noopener noreferrer"><Image className="icon-image" src={instagram}/></a>
+                    <div id="footer-icons">
+                        <a href="https://github.com/Farid-Hamid-4" target="_blank" rel="noopener noreferrer"><Image src={github}/></a>
+                        <a href="https://www.linkedin.com/in/farid-hamid/" target="_blank" rel="noopener noreferrer"><Image src={linkedin}/></a>
+                        <a href="https://www.instagram.com/fhamid4/" target="_blank" rel="noopener noreferrer"><Image src={instagram}/></a>
+                    </div>
                 </div>
-                <div className="footer-form">
+                <div id="footer-form">
                     <Form>
                         <Form.Group>
                             <Form.Control placeholder="name"/>
