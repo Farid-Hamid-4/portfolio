@@ -11,13 +11,13 @@ import "../styles/Skills.css";
 export default function Skills() {
     return (
         <section id="skills-section">
-            <div className="skills-container">
-                <div className="skills-title"><h1 className="low-highlight">My Skills</h1></div>
-                <div className="icons">
+            <div id="skills-container" className="section-margins">
+                <h1 className="section-title">My Skills</h1>
+                <ul id="icons">
                     {Object.entries(iconsList).map(([iconKey, iconValue]) => (
                         <Icon key={iconKey} iconKey={iconKey} iconValue={iconValue}/>
                     ))}
-                </div>
+                </ul>
             </div>
         </section>
     )

@@ -1,29 +1,24 @@
-#about-section {
-    padding: 5em 15em 5em 15em;
-}
-
-.about-me-container {
+#about-container {
     display: flex;
 }
 
-.about-me-bio h1 {
-    font-size: 2em;
-    font-weight: bold;
-    color: #a05ea0;
-}
-
-.about-me-container p {
+#about-me-bio p {
     font-size: 1em;
     color: #696969;
 }
 
-.about-me-bio {
+#about-me-bio {
     width: 50%;
 }
 
-.about-me-image {
+#about-me-image {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50%;
+}
+
+#about-me-image img {
+    width: 20em;
+    border-radius: 10px;
 }

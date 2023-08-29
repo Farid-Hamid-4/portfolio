@@ -14,7 +14,7 @@ export default function Icon({ iconKey, iconValue }) {
 
     return (
         <i key={iconKey} className={`devicon-${iconKey} ${isHovered ? "colored" : ""}`} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-            <p>{iconValue}</p>
+            <li>{iconValue}</li>
         </i>
     );
 }

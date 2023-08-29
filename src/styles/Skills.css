@@ -1,33 +1,25 @@
-#skills-section {
-    padding: 5em 15em 5em 15em;
-}
-
-.skills-container {
+#skills-container {
     display: flex;
     flex-direction: column;
     height: auto;
 }
 
-.skills-container h1 {
-    font-size: 2em;
-    font-weight: bold;
-    color: #a05ea0;
-}
-
-.icons {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+#skills-container ul {
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
+    color: #696969;
 }
 
-.icons i {
+#skills-container i {
     font-size: 3em;
-    color: #696969;
+    flex: 1 0 calc(20% - 10px);
+    margin: 15px 5px;
 }
 
-.icons p {
-    margin-top: 5px;
+#skills-container li {
+    font-family: "Poppins", sans-serif;
+    padding-top: 10px;
     font-size: 0.3em;
-    font-weight: 600;
-    color: #696969;
+    list-style: none;
 }
