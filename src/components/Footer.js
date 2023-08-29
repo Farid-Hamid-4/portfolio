@@ -16,7 +16,7 @@ export default function Footer() {
             <div id="footer-container" className="section-margins">
                 <div id="footer-text">
                     <h1 className="section-title">Let's Connect!</h1>
-                    <p>If you ever want to have a quick chat, just shoot me an email or get in touch with me through my instagram!</p>
+                    <p>If you ever want to have a quick chat, just shoot me an email or get in touch with me through my socials!</p>
                     <div id="footer-icons">
                         <a href="https://github.com/Farid-Hamid-4" target="_blank" rel="noopener noreferrer"><Image src={github}/></a>
                         <a href="https://www.linkedin.com/in/farid-hamid/" target="_blank" rel="noopener noreferrer"><Image src={linkedin}/></a>
@@ -28,7 +28,7 @@ export default function Footer() {
                         <Form.Group>
                             <Form.Control placeholder="name"/>
                             <Form.Control placeholder="email"/>
-                            <Form.Control placeholder="message"/>
+                            <Form.Control as="textarea" rows={6} placeholder="message"/>
                             <Button type="submit">Send Message</Button>
                         </Form.Group>
                     </Form>

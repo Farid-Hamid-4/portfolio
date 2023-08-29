@@ -1,21 +1,17 @@
 # Amplify URL
 [https://main.d3nrpo7t1d7wxl.amplifyapp.com/]
 
-# Color List
-- #e6d799 yellow
-- #c8a2c8 lilac
-- rgb(217, 190, 217) light lilac hue
-- #a05ea0 dark lilac hue
-
-# To Do List
-1. Organizing the global.css styles from the normal content
-2. Fixing the margins and paddings of elements to remove any unnecessary ones
-3. Using a clean structure for each component
-4. Add my spotify playlists to the about me section
-5. Organize the icons in the skills section so that it flows nicely
-6. Projects should implement a database that calls from dynamo db the projects data and renders each project in a flex box of 2 columns per row
-7. Starting the footer
-8. Talk about the importance of accessibility to you and your object detector project
+# What's Next
+- Make the Footer "Send Message" button submit the inputs
+- Create a button component for reusability between "Projects" and "Footer"
+- Create a socials component to render the social media icons in the "Header" and "Footer"
+- Figure out how to speed up icons loading time (could simply download the icons rather than relying on rendering through an http request to devicons)
+- Spotify Playlists in the "About" section
+- Place all the data files in DynamoDB and call their from DynamoDB
+- Edit the descriptions for the projects to target the readers interest
+- In the "About" bio, instead of using the ':', instead use ->
+- Optionally, consider changing the design of the scroll bar on the right hand side of the screen
+- Double check that there are no redundant CSS styles
 
 # Getting Started with Create React App
 

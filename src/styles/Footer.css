@@ -1,6 +1,7 @@
 #footer-container {
     display: flex;
     flex-wrap: wrap;
+    align-items: baseline;
 }
 
 #footer-text {
@@ -29,6 +30,7 @@
 }
 
 #footer-form .form-control {
+    font-family: "Poppins", sans-serif;
     border: 2px solid #a05ea0;
     border-radius: 4px;
     margin-bottom: 1em;
