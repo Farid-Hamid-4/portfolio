@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.css";
 import "devicon/devicon.min.css";
 
 // Import from library
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 // Components
 import Header from "./components/Header.js";
@@ -15,22 +15,17 @@ import Footer from "./components/Footer.js";
 import "./styles/Global.css";
 
 export default function App() {
+    const [data, setData] = useState(null);
+
     useEffect(() => {
-        fetch('https://main.d3nrpo7t1d7wxl.amplifyapp.com/get-access-token')
-        .then(response => {
-            console.log('Response status:', response.status);
-            return response.json();
-        })
-        .then(data => {
-            console.log('Client ID:', data)
-        })
-        .catch(error => {
-            console.error('Error:', error);
-        });
-    }, [])
+      fetch("/api")
+        .then((res) => res.json())
+        .then((data) => setData(data.message));
+    }, []);
 
     return (
         <>
+            <div><h1>{!data ? "Loading..." : data}</h1></div>
             <Header />
             <About />
             <Skills />
