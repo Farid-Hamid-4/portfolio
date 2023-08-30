@@ -15,13 +15,18 @@ import Footer from "./components/Footer.js";
 import "./styles/Global.css";
 
 export default function App() {
-
     useEffect(() => {
         fetch('https://main.d3nrpo7t1d7wxl.amplifyapp.com/get-access-token')
-        .then(response => response.json())
+        .then(response => {
+            console.log('Response status:', response.status);
+            return response.json();
+        })
         .then(data => {
             console.log('Client ID:', data)
         })
+        .catch(error => {
+            console.error('Error:', error);
+        });
     }, [])
 
     return (

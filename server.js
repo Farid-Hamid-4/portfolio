@@ -5,7 +5,7 @@ const app = express();
 app.use(cors());
 
 app.get('/get-access-token', (req, res) => {
-    res.json({ access_token: 'your_access_token' });
+    res.json({clientId: process.env.REACT_APP_CLIENT_ID});
 });
 
 const PORT = process.env.PORT || 3001;
