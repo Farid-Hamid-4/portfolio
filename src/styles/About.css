@@ -3,6 +3,11 @@
 }
 
 #about-me-image {
+    display: flex;
+    margin-left: auto;
+}
+
+#about-me-image img {
     width: 16em;
     border-radius: 10px;
 }

@@ -1,5 +1,6 @@
 // Import from library
 import { Button, Form, Image } from "react-bootstrap";
+import emailjs from "@emailjs/browser";
 
 // Assets
 import instagram from "../assets/images/Instagram-Icon.png";
@@ -11,6 +12,12 @@ import "../styles/Global.css";
 import "../styles/Footer.css";
 
 export default function Footer() {
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        emailjs.sendForm('service_exbi1fc', 'template_aca5udm', e.target, 'QXw34eMQnSk1Z-UrD')
+    }
+
     return(
         <footer>
             <div id="footer-container" className="section-margins">
@@ -24,13 +31,13 @@ export default function Footer() {
                     </div>
                 </div>
                 <div id="footer-form">
-                    <Form>
+                    <Form onSubmit={sendEmail}>
                         <Form.Group>
-                            <Form.Control placeholder="name"/>
-                            <Form.Control placeholder="email"/>
-                            <Form.Control as="textarea" rows={6} placeholder="message"/>
-                            <Button type="submit">Send Message</Button>
+                            <Form.Control name="name" type="name" placeholder="name"/>
+                            <Form.Control name="email_from" type="email" placeholder="email"/>
+                            <Form.Control name="message" as="textarea" rows={5} type="message" placeholder="message"/>
                         </Form.Group>
+                        <Button variant="outline-dark" type="submit">Send Message</Button>
                     </Form>
                 </div>
             </div>

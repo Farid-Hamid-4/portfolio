@@ -17,15 +17,15 @@ export default function Projects() {
                 <h1 className="section-title">Personal Projects</h1>
                 <div id="all-projects">
                     {projectsList.map((project, index) => (
-                        <div id="single-project">
+                        <div id="single-project" key={index}>
                             <h2>{project.type}</h2>
                             <h1>{project.name}</h1>
                             <ul id="skills-used">
-                                {Object.entries(project.technologies).map(([techKey, techValue]) => <li>{techValue}</li>
+                                {Object.entries(project.technologies).map(([techKey, techValue]) => <li key={techKey}>{techValue}</li>
                                 )}
                             </ul>
                             <div id="project-links">
-                                <Button href={project.github} target="_blank" rel="noopener noreferrer">
+                                <Button variant="outline-dark" href={project.github} target="_blank" rel="noopener noreferrer">
                                     <i className="devicon-github-plain"></i>
                                     View Repo
                                 </Button>
