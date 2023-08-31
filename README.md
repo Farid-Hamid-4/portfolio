@@ -1,18 +1,6 @@
 # Amplify URL
 [https://main.d3nrpo7t1d7wxl.amplifyapp.com/]
 
-# What's Next
-- Make the Footer "Send Message" button submit the inputs
-- Create a button component for reusability between "Projects" and "Footer"
-- Create a socials component to render the social media icons in the "Header" and "Footer"
-- Figure out how to speed up icons loading time (could simply download the icons rather than relying on rendering through an http request to devicons)
-- Spotify Playlists in the "About" section
-- Place all the data files in DynamoDB and call their from DynamoDB
-- Edit the descriptions for the projects to target the readers interest
-- In the "About" bio, instead of using the ':', instead use ->
-- Optionally, consider changing the design of the scroll bar on the right hand side of the screen
-- Double check that there are no redundant CSS styles
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

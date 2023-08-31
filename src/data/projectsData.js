@@ -1,6 +1,22 @@
 const projectsList = [
     {
-        "type":"FULL-STACK WEB APPLICATION", 
+        "type":"WEB APPLICATION", 
+        "name":"Portfolio", 
+        "technologies":{
+            "javascript-plain": "JavaScript", 
+            "react-original": "React", 
+            "nodejs-plain": "Node.js",
+            "amazonwebservices-original": "AWS", 
+            "bootstrap-plain": "Bootstrap",
+            "html5-plain": "HTML5", 
+            "css3-plain": "CSS3",
+        },
+        "github":"https://github.com/Farid-Hamid-4/portfolio",
+        "URL":"https://main.d3nrpo7t1d7wxl.amplifyapp.com/",
+        "description":"You can view the source code for this website on my GitHub.",
+    },    
+    {
+        "type":"WEB APPLICATION", 
         "name":"Vibefy", 
         "technologies":{
             "javascript-plain": "JavaScript", 
