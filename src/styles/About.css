@@ -2,20 +2,21 @@
     display: flex;
 }
 
-#about-me-bio p {
-    font-size: 1em;
-    color: #696969;
+#playlists-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 #about-me-bio {
-    width: 50%;
+    width: 75%;
 }
 
 #about-me-image {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 25%;
 }
 
 #about-me-image img {
