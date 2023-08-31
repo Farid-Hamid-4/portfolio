@@ -2,25 +2,14 @@
     display: flex;
 }
 
+#about-me-image {
+    width: 16em;
+    border-radius: 10px;
+}
+
 #playlists-container {
+    margin-top: 8px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-}
-
-#about-me-bio {
-    width: 75%;
-}
-
-#about-me-image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 25%;
-}
-
-#about-me-image img {
-    margin-left: auto;
-    width: 20em;
-    border-radius: 10px;
 }
