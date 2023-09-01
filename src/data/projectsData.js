@@ -1,6 +1,6 @@
 const projectsList = [
     {
-        "type":"WEB APPLICATION", 
+        "type":"FRONT-END", 
         "name":"Portfolio", 
         "technologies":{
             "javascript-plain": "JavaScript", 
@@ -29,10 +29,10 @@ const projectsList = [
         },
         "github":"https://github.com/Farid-Hamid-4/vibefy",
         "URL":"https://main.d2xqpnct98klit.amplifyapp.com/",
-        "description":"Vibefy is a React-based web application that allows users to discover and explore music tracks, albums, and artists using the Spotify Web API. Users can search for songs or artists, and generate playlists containing similar tracks.",
+        "description":"Vibefy is a web application that allows users to discover and explore music tracks, albums, and artists using the Spotify Web API. Users can search for songs or artists, and generate playlists containing similar tracks.",
     },
     {
-        "type":"FULL-STACK WEB APPLICATION",
+        "type":"WEB APPLICATION",
         "name":"UoG Course Mapping",
         "technologies":{
             "python-plain": "Python",
@@ -47,7 +47,7 @@ const projectsList = [
         },
         "github":"https://github.com/Farid-Hamid-4/uog-course-mapping",
         "URL":"",
-        "description":"A program to search and filter course offerings at the University of Guelph. Graphs majors and programs for University of Guelph, and subjects for McGill.",
+        "description":"A collabrative university project that helps students visualize course dependencies and determine their future courses. It will graph majors and programs from the University of Guelph and McGill University.",
     },
     {                    
         "type":"BACKEND PROJECT",
@@ -58,18 +58,7 @@ const projectsList = [
         },
         "github":"https://github.com/Farid-Hamid-4/image-processor",
         "URL":"",
-        "description":"This Python project provides functionalities to sharpen or apply noise removal to an image. It utilizes the Nvidia Warp library for efficient parallel computation.",
-    },
-    {
-        "type": "BACKEND PROJECT",
-        "name": "Picture Summarizer",
-        "technologies": {
-            "python-plain": "Python", 
-            "amazonwebservices-original": "AWS",
-        },
-        "github": "https://github.com/Farid-Hamid-4/object-detector",
-        "URL": "",
-        "description": "A picture summarizing app that uses Amazon Rekognition to determine the contents of an image and OpenAI to generate a summary of what is happening in the image."
+        "description":"A command line tool to sharpen or apply noise removal to an image. It utilizes the Nvidia Warp library for efficient parallel computation.",
     }
 ];
 
