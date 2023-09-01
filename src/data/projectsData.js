@@ -12,7 +12,7 @@ const projectsList = [
             "css3-plain": "CSS3",
         },
         "github":"https://github.com/Farid-Hamid-4/portfolio",
-        "URL":"https://main.d3nrpo7t1d7wxl.amplifyapp.com/",
+        "URL":"www.FaridHamid.com",
         "description":"You can view the source code for this website on my GitHub.",
     },    
     {
