@@ -31,6 +31,20 @@ const projectsList = [
         "URL":"https://main.d2xqpnct98klit.amplifyapp.com/",
         "description":"Vibefy is a web application that allows users to discover and explore music tracks, albums, and artists using the Spotify Web API. Users can search for songs or artists, and generate playlists containing similar tracks.",
     },
+    {                    
+        "type":"MOBILE APPLICATION",
+        "name":"ParkPal",
+        "technologies":{
+            "dart-plain": "Dart",
+            "c-plain": "C",
+            "cplusplus-plain": "C++",
+            "firebase-plain": "Firebase",
+            "androidstudio-plain": "Android Studio"
+        },
+        "github":"https://github.com/Farid-Hamid-4/parkpal",
+        "URL":"",
+        "description":"ParkPal is an app with a peer-to-peer system to log free parking spaces around the world.",
+    },
     {
         "type":"WEB APPLICATION",
         "name":"UoG Course Mapping",
@@ -48,17 +62,6 @@ const projectsList = [
         "github":"https://github.com/Farid-Hamid-4/uog-course-mapping",
         "URL":"",
         "description":"A collabrative university project that helps students visualize course dependencies and determine their future courses. It will graph majors and programs from the University of Guelph and McGill University.",
-    },
-    {                    
-        "type":"BACKEND PROJECT",
-        "name":"Image Processor",
-        "technologies":{
-            "python-plain": "Python",
-            "docker-plain": "Docker",
-        },
-        "github":"https://github.com/Farid-Hamid-4/image-processor",
-        "URL":"",
-        "description":"A command line tool to sharpen or apply noise removal to an image. It utilizes the Nvidia Warp library for efficient parallel computation.",
     }
 ];
 
