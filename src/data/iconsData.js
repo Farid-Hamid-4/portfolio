@@ -3,17 +3,20 @@ const iconsList = {
     "python-plain": "Python", 
     "java-plain": "Java", 
     "javascript-plain": "JavaScript", 
+    "dart-plain": "Dart",
     "postgresql-plain": "PostgreSQL", 
     "html5-plain": "HTML5", 
     "css3-plain": "CSS3", 
-    "nodejs-plain": "Node.js", 
+    "mongodb-plain": "MongoDB", 
     "express-original": "Express", 
     "react-original": "React", 
+    "nodejs-plain": "Node.js",
     "firebase-plain": "Firebase", 
     "bootstrap-plain": "Bootstrap", 
     "git-plain": "Git", 
+    "amazonwebservices-original": "AWS",
     "docker-plain": "Docker",
-    "amazonwebservices-original": "AWS", 
+    "androidstudio-plain": "Android Studio",
 };
 
 export default iconsList;
