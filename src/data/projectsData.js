@@ -47,7 +47,7 @@ const projectsList = [
     },
     {
         "type":"WEB APPLICATION",
-        "name":"UoG Course Mapping",
+        "name":"University Course Mapping",
         "technologies":{
             "python-plain": "Python",
             "javascript-plain": "JavaScript", 

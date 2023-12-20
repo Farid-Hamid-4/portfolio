@@ -17,11 +17,11 @@ export default function About() {
                 <div id="about-me-image"><Image alt="A picture of Farid Hamid" src={Farid}/></div>
             </div>
             <div id="playlists-container">
-                <iframe title="k-pop playlist by Farid Hamid" style={{borderRadius: "12px", width:"32%", height:"152px", frameBorder: "0", marginRight: "8px" }} src="https://open.spotify.com/embed/playlist/2dCHx8JMQVnWJhRGu8idi9?utm_source=generator" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe title="k-pop playlist by Farid Hamid" class="iframe" src="https://open.spotify.com/embed/playlist/2dCHx8JMQVnWJhRGu8idi9?utm_source=generator" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 
-                <iframe title="classics playlist by Farid Hamid" style={{ borderRadius: "12px", width:"32%", height:"152px", frameBorder: "0", marginRight: "8px" }} src="https://open.spotify.com/embed/playlist/52VvgAKPbKpUogNeEriqTV?utm_source=generator" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe title="classics playlist by Farid Hamid" class="iframe" src="https://open.spotify.com/embed/playlist/52VvgAKPbKpUogNeEriqTV?utm_source=generator" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-                <iframe title="chill playlist by Farid Hamid" style={{borderRadius: "12px", width:"32%", height:"152px", frameBorder: "0"}} src="https://open.spotify.com/embed/playlist/3SOk5NdKaAYsPHcoUIZ9eQ?utm_source=generator" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe title="chill playlist by Farid Hamid" class="iframe" src="https://open.spotify.com/embed/playlist/3SOk5NdKaAYsPHcoUIZ9eQ?utm_source=generator" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
             </div>
         </section>
     )
