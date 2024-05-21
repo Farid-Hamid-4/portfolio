@@ -15,7 +15,6 @@ const iconsList = {
     "amazonwebservices-original": "AWS",
     "azure-plain": "Azure",
     "docker-plain": "Docker",
-    "figma-plain": "Figma",
     "visualstudio-plain": "Visual Studio",
     "androidstudio-plain": "Android Studio",
 };
